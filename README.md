@@ -7,3 +7,6 @@
 - Changer le prefixe dans wp-config.php:
   $table_prefix = 'wp0t_';
 - Importation du dossier wp-content
+
+/* Add any custom values between this line and the "stop editing" line. */
+define( 'FS_METHOD', 'direct' );
